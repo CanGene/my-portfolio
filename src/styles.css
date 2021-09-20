@@ -1,12 +1,41 @@
+:root {
+  --primary-bg-color: rgba(67, 49, 73, 1);
+  --primary-color-transparent: rgba(67, 49, 73, 0.83);
+  --secondary-bg-color: rgba(141, 167, 169, 1);
+  --secondary-color-transparent: rgba(141, 167, 169, 0.43);
+  --primary-font-color: #ffffff;
+  --heading-font: "League Script", cursive;
+  --default-font: "Raleway", sans-serif;
+  --special-font: "Raleway Dots", cursive;
+  --drop-shadow: ;
+}
+
 body {
+  background: var(--primary-bg-color);
   text-align: center;
-  margin: 50px auto;
+  font-family: var(--default-font);
+  color: var(--secondary-color-transparent);
+  margin: 100px 20px;
 }
-h1 {
-  font-family: "League Script", cursive;
-  font-size: 50px;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--special-font);
+  color: var(--primary-font-color);
 }
-h2 {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
+.hero div {
+  font-size: 30px;
+  font-weight: 500;
+}
+.hero h1 {
+  font-size: 96px;
+}
+.btn-branding {
+  margin: 20px auto;
+  padding: 15px 30px;
+  color: var(--secondary-bg-color);
 }
