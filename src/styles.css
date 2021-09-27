@@ -24,6 +24,7 @@ h1 {
 .hero {
   padding: 50px;
   background: var(--primary-bg-color);
+  margin-bottom: 50px;
 }
 h2 {
   font-size: 30px;
@@ -54,6 +55,10 @@ img {
   border-radius: 4px;
   box-shadow: var(--drop-shadow);
 }
+.medium img {
+  max-width: 80%;
+  margin-bottom: 20px;
+}
 .btn-interest {
   padding: 15px;
   background-color: var(--secondary-color-transparent);
@@ -76,7 +81,13 @@ img {
   margin: 20px auto;
   border-radius: 0;
 }
-
+ul {
+  font-size: 16px;
+}
+.list-group-item {
+  background-color: var(--primary-color-transparent);
+  color: var(--secondary-bg-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 56px;
