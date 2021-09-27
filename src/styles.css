@@ -31,14 +31,20 @@ h1 {
   font-size: 30px;
   font-weight: 500;
 }
+.hero div {
+  font-size: 30px;
+  font-weight: 500;
+}
+.interests h5 {
+  color: var(--primary-font-color);
+}
+.interests p {
+  font-weight: 300;
+}
 .about h3 {
   line-height: 2;
   font-size: 24px;
   font-weight: 400;
-}
-.hero div {
-  font-size: 30px;
-  font-weight: 500;
 }
 .about p {
   font-size: 16px;
