@@ -59,12 +59,14 @@ img {
   background-color: var(--secondary-color-transparent);
   border: none;
   font-size: 18px;
+  border-radius: 0;
 }
 .btn-contact {
   margin: 40px auto;
   padding: 15px 30px;
   color: var(--secondary-bg-color);
   font-size: 20px;
+  border-radius: 0;
 }
 .square-card {
   background: var(--primary-color-transparent);
@@ -72,6 +74,7 @@ img {
   color: var(--primary-font-color);
   padding: 15px;
   margin: 20px auto;
+  border-radius: 0;
 }
 
 @media (max-width: 900px) {
