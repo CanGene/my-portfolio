@@ -16,12 +16,7 @@ body {
   color: var(--secondary-color-transparent);
   margin-top: 50px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   font-family: var(--special-font);
   color: var(--primary-font-color);
 }
@@ -29,12 +24,31 @@ h6 {
   padding: 50px;
   background: var(--primary-bg-color);
 }
+.hero h1 {
+  font-size: 96px;
+}
+.hero h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.about h3 {
+  line-height: 2;
+  font-size: 24px;
+  font-weight: 500;
+}
 .hero div {
   font-size: 30px;
   font-weight: 500;
 }
-.hero h1 {
-  font-size: 96px;
+.about p {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--primary-font-color);
+  line-height: 2.5;
+}
+.about img {
+  border-radius: 4px;
+  box-shadow: var(--drop-shadow);
 }
 .btn-interest {
   padding: 15px;
@@ -54,11 +68,32 @@ h6 {
 }
 
 @media (max-width: 960px) {
+  .hero h1 {
+    font-size: 56px;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+  }
   .hero div {
     font-size: 20px;
     font-weight: 500;
   }
-  .hero h1 {
-    font-size: 56px;
+  .about h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .about img {
+    margin-bottom: 20px;
+  }
+  .about p {
+    line-height: 2;
+    text-align: center;
+    font-size: 16px;
   }
 }
