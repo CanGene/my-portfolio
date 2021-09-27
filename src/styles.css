@@ -17,6 +17,7 @@ body {
   margin-top: 50px;
 }
 h1 {
+  font-size: 96px;
   font-family: var(--special-font);
   color: var(--primary-font-color);
 }
@@ -24,49 +25,49 @@ h1 {
   padding: 50px;
   background: var(--primary-bg-color);
 }
-.hero h1 {
-  font-size: 96px;
-}
-.hero h2 {
+h2 {
   font-size: 30px;
   font-weight: 500;
 }
-.hero div {
-  font-size: 30px;
-  font-weight: 500;
-}
-.interests h5 {
-  color: var(--primary-font-color);
-}
-.interests p {
-  font-weight: 300;
-}
-.about h3 {
+h3 {
   line-height: 2;
   font-size: 24px;
   font-weight: 400;
 }
-.about p {
+div {
+  font-size: 30px;
+  font-weight: 500;
+}
+h5 {
+  color: var(--primary-font-color);
+}
+p {
   font-size: 16px;
   font-weight: 300;
   color: var(--primary-font-color);
+  line-height: 2;
+}
+.about p {
   line-height: 2.5;
 }
-.about img {
+img {
   border-radius: 4px;
   box-shadow: var(--drop-shadow);
 }
 .btn-interest {
   padding: 15px;
-  color: var(--secondary-bg-color);
+  background-color: var(--secondary-color-transparent);
+  border: none;
+  font-size: 18px;
 }
 .btn-contact {
   margin: 40px auto;
   padding: 15px 30px;
   color: var(--secondary-bg-color);
+  font-size: 20px;
 }
 .square-card {
-  background: var(--secondary-color-transparent);
+  background: var(--primary-color-transparent);
   box-shadow: var(--drop-shadow);
   color: var(--primary-font-color);
   padding: 15px;
@@ -74,30 +75,30 @@ h1 {
 }
 
 @media (max-width: 900px) {
-  .hero h1 {
+  h1 {
     font-size: 56px;
     text-align: center;
   }
-  .hero h2 {
+  h2 {
     font-size: 22px;
     font-weight: 400;
     text-align: center;
     line-height: 1.5;
   }
-  .hero div {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .about h3 {
+  h3 {
     margin-top: 15px;
     font-size: 20px;
     font-weight: 300;
     text-align: center;
   }
-  .about img {
+  div {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  img {
     margin-bottom: 20px;
   }
-  .about p {
+  p {
     line-height: 2;
     text-align: center;
     font-size: 16px;
