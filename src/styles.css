@@ -14,12 +14,34 @@ body {
   text-align: center;
   font-family: var(--default-font);
   color: var(--secondary-color-transparent);
-  margin-top: 50px;
 }
 h1 {
   font-size: 96px;
   font-family: var(--special-font);
   color: var(--primary-font-color);
+}
+.navbar-brand {
+  font-size: 32px;
+  font-family: var(--special-font);
+  color: var(--primary-font-color);
+  padding-left: 20px;
+}
+ul {
+  margin-top: 8px;
+}
+li {
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: var(--secondary-bg-color) !important;
+  transition: all 100ms ease-in-out;
+}
+.nav-link {
+  color: var(--secondary-color-transparent) !important;
+  margin-left: 8px;
+}
+.active {
+  color: var(--secondary-bg-color) !important;
 }
 .hero {
   padding: 50px;
